@@ -1,0 +1,134 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200px;
+    margin: 0;
+}
+
+
+
+/* <--------------menu-bar----------------> */
+
+.menu-bar{
+    color: black;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 80px;
+    align-items: center;
+}
+
+.change-dark-mode-btn{
+    position: relative;
+    font-family: Nunito Sans;
+    font-style: normal;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    left: 71%;
+}
+
+#logo {
+    position: relative;
+    font-family: Nunito Sans;
+    font-weight: 800;
+    font-size: 24px;
+    left: 6%;
+}
+
+.dark-mode{
+    background-color: #2B3844;
+    color: white;
+    display: hidden;
+}
+
+
+
+
+/* <--------------filter-bar----------------> */
+.filter-bar{
+    position: relative;
+    top: 3em;
+    display: flex;
+}
+
+.search-bar{
+    position: relative;
+    left: 6%;
+    border: none;
+}
+
+.region-filter{
+    position: relative;
+    left: 73em;
+}
+/* <--------------country-list-bar----------------> */
+
+.country-list{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.rectangle {
+    position: relative;
+    padding: 0;
+    width: 264px;
+    height: 336px;
+    font-size: medium;
+    border-radius: 5px;
+    margin: 25px;
+    /* margin: 25px 30px 25px 30px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.flag-image{
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+}
+
+.country-name {
+    width: 250px;
+    position: relative;
+    left: 32px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800px;
+    font-size: 18px;
+}
+
+.gen-info-container { 
+    margin: 16px 91px 46px 24px;
+    font-size: 14px;
+    padding: 0;
+    width: 200px;
+}
+
+.gen-info {
+    margin: 8px;
+    font-weight: 300;
+}
+
+strong {
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+/* <--------------------Details-----------------> */
+
+
+
+/*# sourceMappingURL=index.5952072d.css.map */
